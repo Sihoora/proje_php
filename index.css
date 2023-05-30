@@ -1,0 +1,78 @@
+html,body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form.ziyaretci_form {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+form.ziyaretci_form * {
+    display: block;
+    color: #555;
+}
+
+form.ziyaretci_form h4 {
+    text-align: center;
+    margin: 10px 0px
+}
+
+form.ziyaretci_form input, form.ziyartci_form textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+form.ziyartci_form textarea {
+   resize:vertical;
+   max-height: 100px;
+    
+}
+
+form.ziyaretci_form button {
+    margin: 20px auto;
+    width: 115px;
+    height: 30px;
+    background: #ececec;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 12px;
+}
+
+table.mesajlar {
+    width: 820px;
+    margin: 50px auto;
+}
+
+h4.baslik {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+table.mesajlar td {
+    border: 1px solid #ddd;
+}
+
+table.mesajlar img {
+    width: 24px;
+    height: 24px;
+}
+
+.butonlar {
+    position: absolute !important;
+    right: 25px !important;
+    top: 25px !important;
+}
